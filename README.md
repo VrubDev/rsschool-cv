@@ -1,1 +1,1 @@
-# rsschool-cv
+https://VrubDev.github.io/rsschool-cv/
