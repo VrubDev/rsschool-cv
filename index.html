@@ -1,29 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Victoria Vrublevskaya</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <nav class="navigation">
+    <header class="header">
+        <div class="wrapper">
+            <nav class="nav">
                 <ul class="menu">
-                    <li>Summary</li>
-                    <li>Contacts</li>
-                    <li>Skills</li>
-                    <li>Сode</li>
-                    <li>Projects</li>
-                    <li>Experience</li>
-                    <li>Education</li>
-                    <li>Languages</li>
+                    <li class="menu-item"><a class="menu-link" href="#summary">Summary</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#contacts">Contacts</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#skills">Skills</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#code">Сode</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#projects">Projects</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#experience">Work experience</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#education">Education</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#languages">Languages</a></li>
                 </ul>
             </nav>
-        </header>
-        <main class="main"></main>
-        <footer class="footer"></footer>
-    </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper main-container">
+            <section class="section-main" id="profile">
+                <div class="hero">
+                    <div class="hero_left">
+                        <h3 class="intro-greeting">Hello!</h3>
+                        <h1 class="hero__h1">I'm Victoria Vrublevskaya</h1>
+                        <h2 class="hero__h2">Junior Frontend Developer</h2>
+                    </div>
+                    <img class="myphoto" src="./assets/photoVictoriaVrubl.jpg" alt="Photo Victoria Vrublevskaya">
+                </div>
+            </section>
+            <section class="section" id="summary">
+                <h2>A Few Words About Me</h2>
+                <p>I'm a results-oriented Junior Frontend Developer, skilled in modern JavaScript (ES6+) and responsive
+                    UI development.</p>
+                <p>My 3 years of experience in IT recruiting give me a unique advantage: I have first-hand knowledge of
+                    technical hiring
+                    standards and Agile practices. I combine my technical proficiency (HTML5, CSS3, Git, REST APIs) with
+                    strong
+                    communication and self-presentation skills.</p>
+                <p>I'm a quick learner, focused on delivering tangible value and accelerating team productivity from day
+                    one.
+                </p>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contact me</h2>
+                <ul>
+                    <li class="li-item"> Email: <a href="mailto:vivrubl16@gmail.com">vivrubl16@gmail.com</a> </li>
+                    <li class="li-item"> GitHub: <a href="https://github.com/VrubDev"> @VrubDev</a></li>
+                    <li class="li-item"> Linkedin: <a
+                            href="https://www.linkedin.com/in/victoria-vrubl">@victoria-vrubl</a></li>
+                    <li class="li-item"> Discord: <a
+                            href="https://discordapp.com/users/1027484845523345429">victoriavrubl</a></li>
+                    <li class="li-item"> Telegram: <a href="https://t.me/victoria_itwork">@victoria_itwork</a></li>
+                    <li class="li-item">Location: Tbilisi, Georgia</li>
+                </ul>
+            </section>
+
+            <section class="section" id="skills">
+                <h2>My skills</h2>
+                <ul>
+                    <li class="li-item">HTML5</li>
+                    <li class="li-item">CSS3 (Flexbox, Grid, Responsive)</li>
+                    <li class="li-item">JavaScript (ES6+)</li>
+                    <li class="li-item">Git & GitHub</li>
+                    <li class="li-item">Figma</li>
+                    <li class="li-item">Agile/Scrum Methodologies</li>
+                    <li class="li-item">SDLC Awareness</li>
+                    <li class="li-item">Effective Self-Presentation & Interviewing</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2>Сode</h2>
+                <pre class="pre">
+                    <code>
+function checkOperations(inputBalance, inputOperations) {
+
+    let result = inputBalance;
+
+    for (let i = 0; i < inputOperations.length; i++) { 
+        result=result + inputOperations[i]; 
+        if (result < 0) return false; 
+    }
+    return true; 
+}  
+                    </code>
+                </pre>
+            </section>
+
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li class="li-item">2025 - now The Rolling Scopes School</li>
+                    <li class="li-item">2024-2025 HTML/CSS, PurpleSchool</li>
+                    <li class="li-item">2021 HRPR IT-recruiting school, Minsk</li>
+                    <li class="li-item">2016-2018 Academy of Management, Minsk</li>
+                    <li class="li-item">2011-2016 Belarusian State University of Culture and Arts, Minsk</li>
+                </ul>
+            </section>
+
+            <section class="section" id="experience">
+                <h2>Work experience</h2>
+                <p>With three years as an IT Recruiter, I bring a unique blend of talent acquisition expertise and a
+                    deep understanding of
+                    technical roles. I've managed the full recruitment lifecycle for diverse positions, from junior to
+                    executive, across
+                    various tech stacks at Andersen, 360 Travel, and Abiatec & Plavno. This includes everything from
+                    strategic sourcing and
+                    meticulous screening to in-depth interviewing and successful placements.</p>
+                <p>My experience extends beyond just hiring; I've actively collaborated with hiring managers to define
+                    precise
+                    qualification criteria and crafted compelling job descriptions. I've also contributed to broader HR
+                    functions, including
+                    developing and implementing new HR processes. This holistic background in fast-paced IT environments
+                    has given me
+                    invaluable insights into team dynamics, effective communication, and the qualities that drive
+                    success in a technical
+                    team, preparing me to deliver immediate value as a frontend developer.</p>
+            </section>
+
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li class="li-item"><a href="https://VrubDev.github.io/rsschool-cv/" target="_blank"
+                            rel="noopener noreferrer">CV </a></li>
+                </ul>
+            </section>
+
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li class="li-item">Russian - Native</li>
+                    <li class="li-item">English - A2+ (in progress)</li>
+                    <li class="li-item">Polish - A2</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper footer-wrapper">
+            <div class="footer_copywrite">
+                © 2025 by Victoria Vrublevskaya
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/VrubDev" class="social-icons__icon">
+                    <img src="./assets/icons8-github-48.svg" alt="GitHub Victoria Vrublevskaya">
+                </a>
+                <a href="https://www.linkedin.com/in/victoria-vrubl/" class="social-icons__icon">
+                    <img src="./assets/icons8-линкедин-48.svg" alt="linkedin Victoria Vrublevskaya">
+                </a>
+                <a href="https://t.me/victoria_itwork" class="social-icons__icon">
+                    <img src="./assets/icons8-телеграм.svg" alt="Telegram Victoria Vrublevskaya">
+                </a>
+            </div>
+            <div>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
+                    <img class="course-logo" src="./assets/rs-school-logo.svg" alt="Logo of RS-school">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

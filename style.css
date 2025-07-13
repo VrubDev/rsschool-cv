@@ -1,1 +1,183 @@
+/* Global */
 
+@import url('https: //fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #EBE2D7;
+}
+
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    background: #F5F0EB;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3D3730;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+    color: #9A8778;
+}
+
+
+/* Main */
+
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #3D3730;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3D3730;
+    transition: color 0.3s ease;
+
+}
+
+a:hover {
+    color: #9A8778;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section {
+    width: 49%;
+    background-color: #F5F0EB;
+    padding: 10px 30px;
+    border-radius: 1%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #3D3730;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.myphoto {
+    height: 500px;
+    width: 500px;
+    margin: 50px 0px 50px 50px ;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #3D3730;
+    margin-bottom: 10px;
+}
+
+.intro-greeting {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #9A8778;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.hero__h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #9A8778;
+    margin-top: 10px;
+    margin-bottom: 40px
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3D3730;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.li-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3D3730;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+ul {
+    padding: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    background: #F5F0EB;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.course-logo {
+    width: 80px;
+    height: 80px;
+}
