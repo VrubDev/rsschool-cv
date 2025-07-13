@@ -92,9 +92,9 @@ function checkOperations(inputBalance, inputOperations) {
 
     let result = inputBalance;
 
-    for (let i = 0; i < inputOperations.length; i++) { 
+    for (let i = 0; i &lt; inputOperations.length; i++) { 
         result=result + inputOperations[i]; 
-        if (result < 0) return false; 
+        if (result &lt; 0) return false; 
     }
     return true; 
 }  
