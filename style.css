@@ -53,6 +53,22 @@ body {
 
 /* Main */
 
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #3D3730;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3D3730;
+    transition: color 0.3s ease;
+
+}
+
+a:hover {
+    color: #9A8778;
+}
+
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +110,7 @@ h2 {
     font-size: 32px;
     font-weight: 600;
     color: #3D3730;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .intro-greeting {
@@ -125,6 +141,25 @@ p {
     text-align: left;
 }
 
+.li-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3D3730;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+ul {
+    padding: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+
 
 /* Footer */
 
@@ -140,4 +175,9 @@ p {
 
 .social-icons {
     display: flex;
+}
+
+.course-logo {
+    width: 80px;
+    height: 80px;
 }

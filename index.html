@@ -59,28 +59,28 @@
             <section class="section" id="contacts">
                 <h2>Contact me</h2>
                 <ul>
-                    <li>📧Email: vivrubl16@gmail.com</li>
-                    <li>
-                        <a href="https://github.com/VrubDev">GitHub: @VrubDev</a>
-                    </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li>📍 Location: Tbilisi, Georgia</li>
+                    <li class="li-item"> Email: <a href="mailto:vivrubl16@gmail.com">vivrubl16@gmail.com</a> </li>
+                    <li class="li-item"> GitHub: <a href="https://github.com/VrubDev"> @VrubDev</a></li>
+                    <li class="li-item"> Linkedin: <a
+                            href="https://www.linkedin.com/in/victoria-vrubl">@victoria-vrubl</a></li>
+                    <li class="li-item"> Discord: <a
+                            href="https://discordapp.com/users/1027484845523345429">victoriavrubl</a></li>
+                    <li class="li-item"> Telegram: <a href="https://t.me/victoria_itwork">@victoria_itwork</a></li>
+                    <li class="li-item">Location: Tbilisi, Georgia</li>
                 </ul>
             </section>
 
             <section class="section" id="skills">
                 <h2>My skills</h2>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS3 (Flexbox, Grid, Responsive)</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>Git & GitHub</li>
-                    <li>Figma</li>
-                    <li>Agile/Scrum Methodologies</li>
-                    <li>SDLC Awareness</li>
-                    <li>Effective Self-Presentation & Interviewing</li>
+                    <li class="li-item">HTML5</li>
+                    <li class="li-item">CSS3 (Flexbox, Grid, Responsive)</li>
+                    <li class="li-item">JavaScript (ES6+)</li>
+                    <li class="li-item">Git & GitHub</li>
+                    <li class="li-item">Figma</li>
+                    <li class="li-item">Agile/Scrum Methodologies</li>
+                    <li class="li-item">SDLC Awareness</li>
+                    <li class="li-item">Effective Self-Presentation & Interviewing</li>
                 </ul>
             </section>
 
@@ -88,39 +88,65 @@
                 <h2>Сode</h2>
                 <pre class="pre">
                     <code>
-                        function GetBalance(inputBalance, inputOperations) {
-                         let result = inputBalance;
-                         for (let i = 0; i < inputOperations.length; i++) { 
-                         result=result + inputOperations[i];
-                         } 
-                         return result; 
-                        }
+function checkOperations(inputBalance, inputOperations) {
+
+    let result = inputBalance;
+
+    for (let i = 0; i < inputOperations.length; i++) { 
+        result=result + inputOperations[i]; 
+        if (result < 0) return false; 
+    }
+    return true; 
+}  
                     </code>
-                   </pre>
+                </pre>
             </section>
 
             <section class="section" id="education">
                 <h2>Education</h2>
                 <ul>
-                    <li>2025 - now The Rolling Scopes School</li>
-                    <li>2024-2025 HTML/CSS, PurpleSchool</li>
-                    <li>2021 HRPR IT-recruiting school, Minsk</li>
-                    <li>2016-2018 Academy of Management, Minsk</li>
-                    <li>2011-2016 Belarusian State University of Culture and Arts, Minsk</li>
+                    <li class="li-item">2025 - now The Rolling Scopes School</li>
+                    <li class="li-item">2024-2025 HTML/CSS, PurpleSchool</li>
+                    <li class="li-item">2021 HRPR IT-recruiting school, Minsk</li>
+                    <li class="li-item">2016-2018 Academy of Management, Minsk</li>
+                    <li class="li-item">2011-2016 Belarusian State University of Culture and Arts, Minsk</li>
                 </ul>
             </section>
+
             <section class="section" id="experience">
                 <h2>Work experience</h2>
+                <p>With three years as an IT Recruiter, I bring a unique blend of talent acquisition expertise and a
+                    deep understanding of
+                    technical roles. I've managed the full recruitment lifecycle for diverse positions, from junior to
+                    executive, across
+                    various tech stacks at Andersen, 360 Travel, and Abiatec & Plavno. This includes everything from
+                    strategic sourcing and
+                    meticulous screening to in-depth interviewing and successful placements.</p>
+                <p>My experience extends beyond just hiring; I've actively collaborated with hiring managers to define
+                    precise
+                    qualification criteria and crafted compelling job descriptions. I've also contributed to broader HR
+                    functions, including
+                    developing and implementing new HR processes. This holistic background in fast-paced IT environments
+                    has given me
+                    invaluable insights into team dynamics, effective communication, and the qualities that drive
+                    success in a technical
+                    team, preparing me to deliver immediate value as a frontend developer.</p>
             </section>
+
             <section class="section" id="projects">
                 <h2>Projects</h2>
+                <ul>
+                    <li class="li-item"><a href="https://VrubDev.github.io/rsschool-cv/" target="_blank"
+                            rel="noopener noreferrer">CV </a></li>
+                </ul>
             </section>
+
             <section class="section" id="languages">
                 <h2>Languages</h2>
                 <ul>
-                    <li>Russian - Native</li>
-                    <li>English - A2+ (in progress)</li>
-                    <li>Polish - A2</li>
+                    <li class="li-item">Russian - Native</li>
+                    <li class="li-item">English - A2+ (in progress)</li>
+                    <li class="li-item">Polish - A2</li>
                 </ul>
             </section>
         </div>
@@ -140,9 +166,6 @@
                 <a href="https://t.me/victoria_itwork" class="social-icons__icon">
                     <img src="./assets/icons8-телеграм.svg" alt="Telegram Victoria Vrublevskaya">
                 </a>
-            </div>
-            <div>
-                Made with love in
             </div>
             <div>
                 <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
