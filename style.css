@@ -175,6 +175,7 @@ main {
 
 .social-icons {
     display: flex;
+    gap: 10px;
 }
 
 .course-logo {
